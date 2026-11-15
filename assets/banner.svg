@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" height="340">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d" />
+      <stop offset="50%" stop-color="#101a36" />
+      <stop offset="100%" stop-color="#070a14" />
+    </linearGradient>
+
+    <!-- Mesh Glow Gradients -->
+    <radialGradient id="glow1" cx="20%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow2" cx="80%" cy="70%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow3" cx="50%" cy="50%" r="40%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Title Gradient -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60a5fa" />
+      <stop offset="50%" stop-color="#a78bfa" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+
+    <!-- Badge/Pill Gradient -->
+    <linearGradient id="pillGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9" />
+    </linearGradient>
+
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <style>
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 46px;
+      letter-spacing: -0.5px;
+    }
+    .subtitle-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      fill: #94a3b8;
+    }
+    .badge-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      fill: #38bdf8;
+    }
+    .data-stream {
+      stroke-dasharray: 8, 12;
+      animation: pulseFlow 25s linear infinite;
+    }
+    .pulse-node {
+      animation: nodePulse 3s ease-in-out infinite alternate;
+    }
+    .pulse-node-2 {
+      animation: nodePulse2 4s ease-in-out infinite alternate;
+    }
+    .orbit-particle {
+      animation: orbitRotate 14s linear infinite;
+      transform-origin: 600px 70px;
+    }
+
+    @keyframes pulseFlow {
+      from { stroke-dashoffset: 400; }
+      to { stroke-dashoffset: 0; }
+    }
+    @keyframes nodePulse {
+      0% { r: 4px; opacity: 0.4; }
+      100% { r: 7px; opacity: 0.95; }
+    }
+    @keyframes nodePulse2 {
+      0% { r: 5px; opacity: 0.3; }
+      100% { r: 9px; opacity: 0.85; }
+    }
+    @keyframes orbitRotate {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+
+  <!-- Deep Canvas Background -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)" rx="16" />
+  <rect width="100%" height="100%" fill="url(#glow1)" rx="16" />
+  <rect width="100%" height="100%" fill="url(#glow2)" rx="16" />
+  <rect width="100%" height="100%" fill="url(#glow3)" rx="16" />
+
+  <!-- Subtle Ambient Grid -->
+  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+    <line x1="0" y1="85" x2="1200" y2="85" />
+    <line x1="0" y1="170" x2="1200" y2="170" />
+    <line x1="0" y1="255" x2="1200" y2="255" />
+    <line x1="200" y1="0" x2="200" y2="340" />
+    <line x1="400" y1="0" x2="400" y2="340" />
+    <line x1="600" y1="0" x2="600" y2="340" />
+    <line x1="800" y1="0" x2="800" y2="340" />
+    <line x1="1000" y1="0" x2="1000" y2="340" />
+  </g>
+
+  <!-- Dynamic Animated Sync Flows (Background) -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M 120 70 C 350 20, 850 20, 1080 70" stroke="#3b82f6" stroke-opacity="0.25" stroke-width="2" class="data-stream" />
+    <path d="M 100 270 C 380 320, 820 320, 1100 270" stroke="#8b5cf6" stroke-opacity="0.25" stroke-width="2" class="data-stream" style="animation-direction: reverse;" />
+    <path d="M 150 170 C 400 230, 800 110, 1050 170" stroke="#06b6d4" stroke-opacity="0.18" stroke-width="1.5" class="data-stream" />
+  </g>
+
+  <!-- Constellation Nodes (P2P Mesh Network Nodes) -->
+  <g>
+    <circle cx="120" cy="70" r="5" fill="#60a5fa" class="pulse-node" />
+    <circle cx="350" cy="35" r="4" fill="#a78bfa" class="pulse-node-2" />
+    <circle cx="850" cy="35" r="6" fill="#38bdf8" class="pulse-node" />
+    <circle cx="1080" cy="70" r="5" fill="#818cf8" class="pulse-node-2" />
+
+    <circle cx="100" cy="270" r="5" fill="#38bdf8" class="pulse-node-2" />
+    <circle cx="380" cy="305" r="4" fill="#818cf8" class="pulse-node" />
+    <circle cx="820" cy="305" r="5" fill="#c084fc" class="pulse-node-2" />
+    <circle cx="1100" cy="270" r="6" fill="#60a5fa" class="pulse-node" />
+  </g>
+
+  <!-- Foreground Content: Header Pill, Title, Subtitle, Capability Badges -->
+  <g filter="url(#shadow)">
+    <!-- Category Pill -->
+    <rect x="475" y="42" width="250" height="32" rx="16" fill="url(#pillGrad)" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1.5" />
+    <circle cx="493" cy="58" r="4" fill="#10b981">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="508" y="63" class="badge-text">CONTINUOUS FILE &amp; STATE SYNC</text>
+
+    <!-- Main Title -->
+    <text x="600" y="138" text-anchor="middle" class="title-text" fill="url(#titleGrad)">Awesome Multi-Device Sync</text>
+
+    <!-- Subtitle -->
+    <text x="600" y="178" text-anchor="middle" class="subtitle-text">Curated Architectures, P2P Protocols &amp; Self-Hosted Sync Engines</text>
+
+    <!-- Technology Highlights Badges -->
+    <g transform="translate(240, 218)">
+      <!-- Badge 1: P2P & Block Sync -->
+      <rect x="0" y="0" width="160" height="34" rx="8" fill="#1e293b" fill-opacity="0.75" stroke="#334155" />
+      <text x="80" y="22" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="600" fill="#93c5fd">⚡ Block-Level Sync</text>
+
+      <!-- Badge 2: End-to-End Encryption -->
+      <rect x="180" y="0" width="170" height="34" rx="8" fill="#1e293b" fill-opacity="0.75" stroke="#334155" />
+      <text x="265" y="22" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="600" fill="#a5b4fc">🔒 Zero-Knowledge E2EE</text>
+
+      <!-- Badge 3: P2P BitTorrent / BEP -->
+      <rect x="370" y="0" width="165" height="34" rx="8" fill="#1e293b" fill-opacity="0.75" stroke="#334155" />
+      <text x="452" y="22" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="600" fill="#67e8f9">🌐 Mesh &amp; P2P Sync</text>
+
+      <!-- Badge 4: Self-Hosted Cloud -->
+      <rect x="555" y="0" width="165" height="34" rx="8" fill="#1e293b" fill-opacity="0.75" stroke="#334155" />
+      <text x="637" y="22" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="600" fill="#34d399">📦 Self-Hosted Cloud</text>
+    </g>
+  </g>
+</svg>
