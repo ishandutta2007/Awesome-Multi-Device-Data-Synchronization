@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Multi-Device-Data-Synchronization/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Multi-Device-Data-Synchronization?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Multi-Device-Data-Synchronization/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Multi-Device-Data-Synchronization?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Multi-Device-Data-Synchronization/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Multi-Device-Data-Synchronization?style=social" alt="GitHub forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Multi-Device-Data-Synchronization/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg" alt="License: CC0 1.0" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -67,10 +67,10 @@ The table below outlines leading commercial cloud-hosted and hybrid synchronizat
 
 ## 💻 Open-Source Software & Self-Hosted Solutions 🛠️
 
-Self-hosted, community-driven multi-device data synchronization software sorted by **GitHub Star Count (descending)**:
+Self-hosted, community-driven multi-device data synchronization software sorted by **GitHub Stars_Count (descending)**:
 
 ### 1. Syncthing 🌟
-[![GitHub stars](https://img.shields.io/github/stars/syncthing/syncthing?style=social&color=white)](https://github.com/syncthing/syncthing/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/syncthing/syncthing?style=social&color=white)](https://github.com/syncthing/syncthing/stargazers)
 * **Repository:** [syncthing/syncthing](https://github.com/syncthing/syncthing) 🔗
 * **Tech Stack:** Go | **License:** MPL-2.0 📜
 * **Description:** Continuous decentralized peer-to-peer file synchronization engine utilizing the cryptographic **Block Exchange Protocol (BEP)**.
@@ -84,7 +84,7 @@ Self-hosted, community-driven multi-device data synchronization software sorted 
 ---
 
 ### 2. Rclone 🌟
-[![GitHub stars](https://img.shields.io/github/stars/rclone/rclone?style=social&color=white)](https://github.com/rclone/rclone/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/rclone/rclone?style=social&color=white)](https://github.com/rclone/rclone/stargazers)
 * **Repository:** [rclone/rclone](https://github.com/rclone/rclone) 🔗
 * **Tech Stack:** Go | **License:** MIT 📜
 * **Description:** Known as "The Swiss Army knife of cloud storage," Rclone synchronizes files and directories to and from over 70 cloud storage providers and local storage.
@@ -98,7 +98,7 @@ Self-hosted, community-driven multi-device data synchronization software sorted 
 ---
 
 ### 3. Spacedrive 🌟
-[![GitHub stars](https://img.shields.io/github/stars/spacedriveapp/spacedrive?style=social&color=white)](https://github.com/spacedriveapp/spacedrive)
+[![GitHub_Stars](https://img.shields.io/github/stars/spacedriveapp/spacedrive?style=social&color=white)](https://github.com/spacedriveapp/spacedrive)
 * **Repository:** [spacedriveapp/spacedrive](https://github.com/spacedriveapp/spacedrive) 🔗
 * **Tech Stack:** Rust / TypeScript / Tauri | **License:** Apache-2.0 📜
 * **Description:** An open-source, cross-platform distributed file explorer and sync platform powered by a virtual distributed filesystem (VDFS).
@@ -112,7 +112,7 @@ Self-hosted, community-driven multi-device data synchronization software sorted 
 ---
 
 ### 4. Nextcloud Server 🌟
-[![GitHub stars](https://img.shields.io/github/stars/nextcloud/server?style=social&color=white)](https://github.com/nextcloud/server/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/nextcloud/server?style=social&color=white)](https://github.com/nextcloud/server/stargazers)
 * **Repository:** [nextcloud/server](https://github.com/nextcloud/server) 🔗
 * **Tech Stack:** PHP / Vue.js / Redis / PostgreSQL / MySQL | **License:** AGPL-3.0 📜
 * **Description:** The most widely adopted self-hosted productivity suite providing file sync & share, calendar, contacts, real-time document collaboration, and media backup.
@@ -126,7 +126,7 @@ Self-hosted, community-driven multi-device data synchronization software sorted 
 ---
 
 ### 5. File Browser 🌟
-[![GitHub stars](https://img.shields.io/github/stars/filebrowser/filebrowser?style=social&color=white)](https://github.com/filebrowser/filebrowser/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/filebrowser/filebrowser?style=social&color=white)](https://github.com/filebrowser/filebrowser/stargazers)
 * **Repository:** [filebrowser/filebrowser](https://github.com/filebrowser/filebrowser) 🔗
 * **Tech Stack:** Go / Vue.js | **License:** Apache-2.0 📜
 * **Description:** Ultra-lightweight standalone file management interface and sync server that provides a clean Web UI over any local directory.
@@ -140,7 +140,7 @@ Self-hosted, community-driven multi-device data synchronization software sorted 
 ---
 
 ### 6. Seafile 🌟
-[![GitHub stars](https://img.shields.io/github/stars/haiwen/seafile?style=social&color=white)](https://github.com/haiwen/seafile/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/haiwen/seafile?style=social&color=white)](https://github.com/haiwen/seafile/stargazers)
 * **Repository:** [haiwen/seafile](https://github.com/haiwen/seafile) 🔗
 * **Tech Stack:** C / Python / Go | **License:** Apache-2.0 / AGPLv3 📜
 * **Description:** High-performance enterprise-grade cloud storage and synchronization system optimized for handling millions of files with Git-like block deduplication.
@@ -154,7 +154,7 @@ Self-hosted, community-driven multi-device data synchronization software sorted 
 ---
 
 ### 7. ownCloud Infinite Scale (oCIS) 🌟
-[![GitHub stars](https://img.shields.io/github/stars/owncloud/ocis?style=social&color=white)](https://github.com/owncloud/ocis/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/owncloud/ocis?style=social&color=white)](https://github.com/owncloud/ocis/stargazers)
 * **Repository:** [owncloud/ocis](https://github.com/owncloud/ocis) 🔗
 * **Tech Stack:** Go / Microservices | **License:** Apache-2.0 📜
 * **Description:** Modern, cloud-native file sync and sharing architecture built entirely in Go with microservices, designed for massive enterprise concurrency and S3-native storage.
@@ -168,7 +168,7 @@ Self-hosted, community-driven multi-device data synchronization software sorted 
 ---
 
 ### 8. EteSync Server 🌟
-[![GitHub stars](https://img.shields.io/github/stars/etesync/server?style=social&color=white)](https://github.com/etesync/server/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/etesync/server?style=social&color=white)](https://github.com/etesync/server/stargazers)
 * **Repository:** [etesync/server](https://github.com/etesync/server) 🔗
 * **Tech Stack:** Python / Django | **License:** AGPL-3.0 📜
 * **Description:** End-to-end encrypted, zero-knowledge sync engine designed for multi-device synchronization of contacts, calendars, tasks, and personal notes.
@@ -181,7 +181,7 @@ Self-hosted, community-driven multi-device data synchronization software sorted 
 ---
 
 ### 9. FreeFileSync 🌟
-[![GitHub stars](https://img.shields.io/github/stars/hkneptune/FreeFileSync?style=social&color=white)](https://github.com/hkneptune/FreeFileSync/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/hkneptune/FreeFileSync?style=social&color=white)](https://github.com/hkneptune/FreeFileSync/stargazers)
 * **Repository:** [hkneptune/FreeFileSync](https://github.com/hkneptune/FreeFileSync) 🔗
 * **Tech Stack:** C++ / wxWidgets | **License:** GPL-3.0 📜
 * **Description:** High-efficiency open-source folder comparison and synchronization desktop utility that calculates differences and updates target targets accurately.
@@ -194,7 +194,7 @@ Self-hosted, community-driven multi-device data synchronization software sorted 
 ---
 
 ### 10. Octi 🌟
-[![GitHub stars](https://img.shields.io/github/stars/d4rken-org/octi?style=social&color=white)](https://github.com/d4rken-org/octi/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/d4rken-org/octi?style=social&color=white)](https://github.com/d4rken-org/octi/stargazers)
 * **Repository:** [d4rken-org/octi](https://github.com/d4rken-org/octi) 🔗
 * **Tech Stack:** Kotlin / Compose Multiplatform / Android | **License:** GPL-3.0 📜
 * **Description:** Open-source cross-device state synchronization and hardware telemetry exchange tool for Android, desktop, and web environments.
@@ -235,7 +235,7 @@ Contributions are warmly welcomed! If you would like to submit a new open-source
 
 1. **Fork the repository** 🍴
 2. **Create a new branch** (`git checkout -b feature/new-sync-tool`)
-3. **Add the tool** with name, repository URL, tech stack, open-source license, star badge, and key features
+3. **Add the tool** with name, repository URL, tech stack, open-source license, Stars_Badge, and key features
 4. **Commit your changes** (`git commit -m 'Add AwesomeSyncTool'`)
 5. **Push to the branch** (`git push origin feature/new-sync-tool`)
 6. **Open a Pull Request** 🚀
